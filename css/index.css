@@ -1,0 +1,338 @@
+@import url('https://fonts.googleapis.com/css2?family= Poppins :wght@300 & display=swap');  
+
+a{
+    color: white;
+    text-decoration: none;
+}
+main{
+    background-image: url('../img/1307850.jpg') ;
+    width: 100vw;
+    /* height: 100px; */
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 2px;
+}
+#main2{
+    background-image: url('../img/1307850.jpg') ;
+    width: 100vw;
+    height: 100vh;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 2px;
+}
+header {
+    background-color: #131b28;
+    width: 100vw;
+    padding: 20px;
+}
+/* ------------------------------- */
+
+#logo_navbar {
+    width: 70px;
+}
+#links_navbar {
+    display: flex;
+    justify-content: flex-end;
+    flex-grow: 1;
+}
+#links_navbar a {
+    color: white;
+    margin-left: 10px;
+    text-decoration: none;
+}
+/* ------------------------------- */
+
+/* div e buttons agentes */
+#pesquisar{
+    display: flex;
+    justify-content: flex-end;
+    border: #FF4655 2px;
+    
+}
+#nomes {
+    padding-left: 15px;
+    width: 300px;
+    height: 35px;
+    border: none;
+    border-radius: 15px 0px 0px 15px;
+    cursor: pointer;
+    font-family:Arial, sans-serif;
+    font-weight: bold;
+    
+}
+#nomeagent {
+    height: 35px;
+    padding: 5px 10px;
+    border: 2px solid #FFAF69;
+    background-color: #131b2800;
+    color: white;
+    /* border:none; */
+    border-radius: 0px 15px 15px 0px;
+    cursor: pointer;
+    font-weight: bold;
+}
+#agent{
+    padding: 20px;
+    width: 500px;
+    margin-top: 50px;
+    display: flex;
+    justify-self: center;
+    background-color: #00000091 ;
+    border: 5px #FFAF69 solid;
+    border-radius: 10px;
+    color: white;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+}
+#iconagent{
+    width: 60%; 
+}
+#infoagentes{
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    border: #FF4655 2px;    
+}
+#hb1,#hb2,#hb3,#imgult{
+    width: 40px;
+}
+/* --------------------- */
+
+
+/* div e buttons mapas */
+#maps{  
+    margin-left: 20px;
+    width: 130px;
+    padding: 5px;
+    border: 2px solid #FFAF69;
+    background-color: #131b2800;
+    text-decoration: none;
+    border-radius: 15px;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    color: #fff;
+}
+
+#divmaps{
+    padding-left: 50px;
+    max-width: 550px;
+    height: 650%;
+    margin-top: 50px;
+    background-color: #00000091 ;
+    border: 5px #FFAF69 solid;
+    border-radius: 10px;
+    color: white;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    margin-left: 30px;
+    font-size: 20pt;
+}
+#mapas{
+    padding: 5px;
+    display: flex;
+    flex-flow: row wrap;
+}
+
+/* ------------------------ */
+
+/* Div buttons modo de jogo */
+#modjogo {
+    margin-left: 20px;
+    width: 140px;
+    padding: 5px;
+    border: 2px solid #FFAF69;
+    background-color: #131b2800;
+    text-decoration: none;
+    border-radius: 15px;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    color: #fff;
+}
+#gamesmodos{
+    width: 400px;
+    height: 150px;
+    padding-top: 15px;
+    margin-top: 50px;
+    background-color: #00000091 ;
+    border: 5px #FFAF69 solid;
+    border-radius: 10px;
+    color: white;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    margin-left: 30px;
+    font-size: 18pt ;  
+}
+#modos{
+    margin-top: 80px;
+    display: flex;
+      flex-flow: row wrap;
+}
+/* ---------------------------------- */
+
+/* Div Function limpar pagina e voltar */
+#limpar{
+    margin-left: 20px;
+    width: 130px;
+    padding: 5px;
+    border: 2px solid #FFAF69;
+    background-color: #131b2800;
+    text-decoration: none;
+    border-radius: 15px;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    color: #fff;
+}
+#voltar{
+    margin-left: 20px;
+    width: 130px;
+    padding: 5px;
+    border: 2px solid #FFAF69;
+    background-color: #131b2800;
+    text-decoration: none;
+    border-radius: 15px;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    color: #fff;
+}
+#linkvoltar{
+    text-decoration: none;
+    color: #fff;
+}
+
+/* ----------------------- */
+
+
+/* Div e buttons skins e armas*/
+
+#viewapons{
+    padding: 10px;
+    color: #fff;
+    text-decoration: none;
+    
+}#buttvieweapons{ 
+    margin-left: 20px;
+    width: 140px;
+    padding: 5px;
+    border: 2px solid #FFAF69;
+    background-color: #131b2800;
+    text-decoration: none;
+    border-radius: 15px;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+}
+#pesquisarskin{
+    display: flex;
+    justify-content: flex-end;
+    border: #FF4655 2px;
+
+}
+#listrabtt{
+    width: 150px;
+    padding: 5px;
+    border: 2px solid #FFAF69;
+    background-color: #131b2800;
+    text-decoration: none;
+    border-radius: 15px;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    font-size: 12pt;
+    color: #fff;
+}
+#listweapons{
+  justify-content: flex-start ;
+
+}
+#weaponshtml{
+    display: flex;
+    justify-content: end;
+
+}
+#nomeskin{
+    justify-content: end;
+    padding-left: 15px;
+    width: 300px;
+    height: 35px;
+    border: none;
+    border-radius: 15px 0px 0px 15px;
+    cursor: pointer;
+    font-family:Arial, sans-serif;
+    font-weight: bold;
+}
+
+#buttonskins{
+    height: 35px;
+    padding: 5px 10px;
+    border: 2px solid #FFAF69;
+    background-color: #131b2800;
+    color: white;
+    border-radius: 0px 15px 15px 0px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+#weaponsdiv{
+    padding-left: 20px;
+    width: 430px;
+    height: 240px;
+    margin-top: 50px;
+    background-color: #00000091 ;
+    border: 5px #FFAF69 solid;
+    border-radius: 10px;
+    color: white;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    margin-left: 30px;
+}
+#divskins{
+    padding-left: 20px;
+    width: 530px;
+    height: 500px;
+    margin-top: 50px;
+    background-color: #00000091 ;
+    border: 5px #FFAF69 solid;
+    border-radius: 10px;
+    color: white;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    margin-left: 30px;
+}
+#weaponskin{
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    color: #fff;
+}
+/* ------------------ */
+
+
+/* Div cards */
+
+#grupocard{
+    padding-left: 2%;
+}
+.card-group {
+    width: 100%;
+}
+
+#card1, #card2, #card3{
+    border-radius: 15px;
+    border: 3px solid #FFAF69;
+    
+}
+.card-title{
+    text-align: center;
+    font-size: 28pt;
+    font-family: 'Poppins', sans-serif;
+    color: #FFAF69;
+}
+.card-text{
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14pt;
+}
